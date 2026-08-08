@@ -8,3 +8,9 @@ AI agents often face an "Autonomy–Interaction Dilemma": when users provide amb
 
 **Core insight**: In complex open-world environments, communication can itself function as an efficient form of computation. Rather than attempting to anticipate users' potential needs by continually expanding the search space, agents may benefit more from scaling interaction. Before acting, they can engage in multi-turn dialogue to elicit and progressively clarify user intent. Such an interaction-first strategy may provide a more efficient approach to **Goal Forge, Task Execution and Agent Loop**.
 
+## ✅️ What does this SKILL do? When is it triggered?
+
+The SKILL `clarify-intent-and-establish-shared-understanding` systematically examines and refines a user's plan, decision, goal, strategy, proposal, or idea before consequential actions are taken. Its purpose is to establish a precise and shared understanding of the user's intent, objectives, constraints, priorities, assumptions, dependencies, risks, trade-offs, and measurable criteria for success. It achieves this through adaptive and progressively deeper questioning, posing exactly one high-leverage, decision-focused question at a time. Throughout this process, it distinguishes among facts, assumptions, hypotheses, and unknowns; identifies contradictions and information gaps; directly verifies available facts; and periodically synthesizes the emerging shared understanding.
+
+The SKILL is triggered when the user explicitly requests rigorous scrutiny, such as **grilling, challenging, pressure-testing, cross-examination, red-team review, pre-mortem analysis, or a decision audit**. The process continues until the reasoning is coherent, grounded in available evidence, responsive to relevant constraints, informed by an explicit assessment of risks, actionable, and confirmed by the user.
+
