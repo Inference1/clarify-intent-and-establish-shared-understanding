@@ -1,5 +1,98 @@
 # clarify-intent-and-establish-shared-understanding
 
+## 🚀 Quick Start
+
+### Option 1: Ask Your Agent to Install It
+
+Simply tell your agent:
+
+`Install the clarify-intent-and-establish-shared-understanding skill from https://github.com/Inference1/clarify-intent-and-establish-shared-understanding for this project.`
+
+### Option 2: Install with `npx skills`
+
+The easiest command-line method is the [`skills`](https://github.com/vercel-labs/skills) CLI.
+
+**Interactive installation**
+
+```bash
+npx skills add Inference1/clarify-intent-and-establish-shared-understanding
+```
+
+The installer will let you choose the target Agent and installation scope.
+
+**Install for a specific Agent**
+
+```bash
+npx skills add Inference1/clarify-intent-and-establish-shared-understanding -a claude-code
+```
+
+Replace `claude-code` with the desired Agent identifier, such as `codex`, `cursor`, `github-copilot`, or `gemini-cli`.
+
+Install globally for that Agent:
+
+```bash
+npx skills add Inference1/clarify-intent-and-establish-shared-understanding -a claude-code -g
+```
+
+**Install for all supported Agents**
+
+Project-level:
+
+```bash
+npx skills add Inference1/clarify-intent-and-establish-shared-understanding --all
+```
+
+Global:
+
+```bash
+npx skills add Inference1/clarify-intent-and-establish-shared-understanding --all -g
+```
+
+Project-level installation is the default; `-g` / `--global` makes the Skill available across projects.
+
+### Option 3: Install Manually
+
+Download the repository as a ZIP from GitHub, or clone it:
+
+```bash
+git clone https://github.com/Inference1/clarify-intent-and-establish-shared-understanding.git
+```
+
+Then copy the repository folder into your Agent's **project-level** or **global** skills directory. Keep `SKILL.md` inside the Skill folder:
+
+```text
+<skills-directory>/
+└── clarify-intent-and-establish-shared-understanding/
+    └── SKILL.md
+```
+
+For example, with Claude Code:
+
+```text
+# Project-level
+<project>/.claude/skills/clarify-intent-and-establish-shared-understanding/SKILL.md
+
+# Global
+~/.claude/skills/clarify-intent-and-establish-shared-understanding/SKILL.md
+```
+
+Common Agent locations include:
+
+| Agent          | Project-level     | Global               |
+| -------------- | ----------------- | -------------------- |
+| Claude Code    | `.claude/skills/` | `~/.claude/skills/`  |
+| Codex          | `.agents/skills/` | `~/.codex/skills/`   |
+| Cursor         | `.agents/skills/` | `~/.cursor/skills/`  |
+| GitHub Copilot | `.agents/skills/` | `~/.copilot/skills/` |
+| Gemini CLI     | `.agents/skills/` | `~/.gemini/skills/`  |
+
+For other Agents, use their documented skills directory or let `npx skills add` select the correct location automatically.
+
+The `skills` CLI currently documents project scope as the default, `-g/--global` for user-wide installation, `-a/--agent` for targeting specific agents, and `--all` for installing all discovered skills to all supported agents. ([GitHub][2])
+
+[1]: https://github.com/Inference1/clarify-intent-and-establish-shared-understanding "GitHub - Inference1/clarify-intent-and-establish-shared-understanding: Systematically clarify intent, challenge assumptions, resolve contradictions, and align goals, constraints, risks, and success criteria. · GitHub"
+[2]: https://github.com/vercel-labs/skills "GitHub - vercel-labs/skills: The open agent skills tool - npx skills · GitHub"
+
 ## ✨ Introduction
 
 AI agents often face an "Autonomy–Interaction Dilemma": when users provide ambiguous prompts or instructions, highly autonomous systems may proceed for extended periods without sufficient interaction. As a result, they may produce Deep Research reports that diverge substantially from user expectations or make inappropriate modifications to code. Such outcomes not only compromise task quality but also result in unnecessary expenditures of computational resources and time. Therefore, achieving an appropriate balance between autonomous execution and timely user interaction is critical to improving agent performance.
