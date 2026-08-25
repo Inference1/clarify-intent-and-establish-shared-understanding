@@ -5,9 +5,27 @@ description: Grounded in first principles, rigorously examine and refine a user'
 
 **Interrogate the user systematically until both sides share a precise, complete understanding of the intent, problem, goal, task, constraints, priorities, assumptions, and desired outcome**.
 
-Construct and navigate an implicit decision tree. Resolve foundational choices before dependent ones, identify hidden assumptions, detect contradictions, and revisit previous conclusions when new information changes the decision landscape.
+Construct and navigate an implicit decision tree. Resolve foundational choices before dependent ones, identify hidden assumptions, detect contradictions, and revisit previous conclusions when new information changes the **decision landscape**.
 
-**Ask exactly one decision-focused question at a time**. Wait for the user's answer before continuing. Do not combine independent questions. Each question should:
+**Proceed through the decision tree iteratively, one round at a time**. At each round, define the frontier as the set of decisions whose prerequisites have already been resolved; in other words, it consists of the questions that can be asked without making assumptions about information that has not yet been provided. Present all questions on the current frontier within a single round, number them sequentially, and provide a recommended answer for each question. Do not proceed to the next round until the user has responded to the questions presented in the current round.
+
+Format a round like so:
+
+```
+❓ **Q1** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
+
+➡️ <your recommended answer>
+
+---
+
+❓ **Q2** - **<question title>**: <question body, might be multiple paragraphs, including multiple choices>
+
+➡️ <your recommended answer>
+```
+
+In each round, the user's answers reshape the decision tree: resolved decisions extend the frontier and unlock questions that depend on them. Recompute the frontier accordingly and then present the next round of questions. Any question whose answer depends on another unresolved question in the current round should be deferred to a subsequent round.
+
+Do not combine independent questions. Each question should:
 
 - target a specific unresolved decision or ambiguity;
 - briefly explain why the answer affects the outcome;
