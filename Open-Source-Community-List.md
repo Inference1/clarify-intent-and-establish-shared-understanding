@@ -9,26 +9,25 @@ LLM / VLM 高性能推理与 Serving
 - [xLLM](https://github.com/xLLM-AI/xllm)
 - [TileRT](https://github.com/tile-ai/TileRT)
 - [Chitu](https://github.com/thu-pacman/chitu)
-- [vLLM-RLT](https://github.com/ThinkFlowLab/vllm-rlt)
 - [LightLLM](https://github.com/ModelTC/lightllm)
 - [RTP-LLM](https://github.com/alibaba/rtp-llm)
 - [KsanaLLM](https://github.com/Tencent/KsanaLLM)
 - [fastllm](https://github.com/ztxz16/fastllm)
 - [Sonar](https://github.com/dphnAI/sonar)
 - [DeepSpeed-MII](https://github.com/deepspeedai/DeepSpeed-MII)
-- [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)
+- [TGI](https://github.com/huggingface/text-generation-inference)
 
 Omni / 原生多模态推理与 Serving
 
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni)
 - [SGLang-Omni](https://github.com/sgl-project/sglang-omni)
-- [Tele-AI/TeleFuser](https://github.com/Tele-AI/TeleFuser)
-- [mstar-project/mstar](https://github.com/mstar-project/mstar)
-- [cornserve-ai/cornserve](https://github.com/cornserve-ai/cornserve)
+- [TeleFuser](https://github.com/Tele-AI/TeleFuser)
+- [MStar](https://github.com/mstar-project/mstar)
+- [Cornserve](https://github.com/cornserve-ai/cornserve)
 
 消费级本地运行 / 低显存 / 异构 LLM 推理
 
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
 - [Ollama](https://github.com/ollama/ollama)
 - [FreeToken](https://github.com/FlashML-org/FreeToken)
 - [KTransformers](https://github.com/kvcache-ai/ktransformers)
@@ -37,11 +36,12 @@ Omni / 原生多模态推理与 Serving
 - [AirLLM](https://github.com/lyogavin/airllm)
 - [Colibri](https://github.com/JustVugg/colibri)
 - [Strata](https://github.com/Niko1221/Strata)
-- [mllm](https://github.com/UbiquitousLearning/mllm)
-- [lemonade](https://github.com/lemonade-sdk/lemonade)
+- [MLLM](https://github.com/UbiquitousLearning/mllm)
+- [Lemonade](https://github.com/lemonade-sdk/lemonade)
 
 特殊模型架构 / 计算范式做专门推理优化
 
+- [vLLM-RLT](https://github.com/ThinkFlowLab/vllm-rlt)
 - [BitNet](https://github.com/microsoft/BitNet)
 - [dInfer](https://github.com/inclusionAI/dInfer)
 - [VKWR](https://github.com/szxysdt/VKWR)
@@ -50,38 +50,39 @@ Omni / 原生多模态推理与 Serving
 
 端侧 / Edge AI 推理 Runtime
 
-- [MLC LLM](https://github.com/mlc-ai/mlc-llm)
+- [MLC-LLM](https://github.com/mlc-ai/mlc-llm)
 - [ExecuTorch](https://github.com/pytorch/executorch)
-- [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite)
+- [Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite)
 - [OmniInfer](https://github.com/omnimind-ai/OmniInfer)
-- [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks)
+- [RunAnywhere-SDKs](https://github.com/RunanywhereAI/runanywhere-sdks)
 - [MNN](https://github.com/alibaba/MNN)
 - [NCNN](https://github.com/Tencent/ncnn)
 - [TNN](https://github.com/Tencent/TNN)
 - [LiteRT](https://github.com/google-ai-edge/LiteRT)
 - [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM)
-- [cactus-compute/cactus](https://github.com/cactus-compute/cactus)
+- [Cactus](https://github.com/cactus-compute/cactus)
 
 通用 AI 推理 Runtime / 编译与执行平台
 
-- [ONNX Runtime](https://github.com/microsoft/onnxruntime)
-- [Modular (Includes MAX Framework & Mojo Language)](https://github.com/modular/modular)
+- [ONNX-Runtime](https://github.com/microsoft/onnxruntime)
+- [Modular (MAX Framework & Mojo Language)](https://github.com/modular/modular)
 
 模型 Serving / 部署与 Fine-tuning 平台
 
 - [Xinference](https://github.com/xorbitsai/inference)
 - [OpenLLM](https://github.com/bentoml/OpenLLM)
-- [llm-engine](https://github.com/scaleapi/llm-engine)
-- [oumi](https://github.com/oumi-ai/oumi)
+- [LLM-Engine](https://github.com/scaleapi/llm-engine)
+- [Oumi](https://github.com/oumi-ai/oumi)
 
 大模型 Serving 基础设施 / 集群编排 / Gateway
 
 - [GPUStack](https://github.com/gpustack/gpustack)
 - [KServe](https://github.com/kserve/kserve)
 - [AIBrix](https://github.com/vllm-project/aibrix)
-- [Agent Router](https://github.com/theagentrouter/agent-router)
+- [vLLM-Semantic-Router](https://github.com/vllm-project/semantic-router)
+- [Agent-Router](https://github.com/theagentrouter/agent-router)
 - [LiteLLM](https://github.com/BerriAI/litellm)
-- [agentgateway](https://github.com/agentgateway/agentgateway)
+- [Agent-Gateway](https://github.com/agentgateway/agentgateway)
 
 语音 / ASR 推理
 
@@ -92,6 +93,7 @@ Omni / 原生多模态推理与 Serving
 
 Diffusion / DiT / 图像与视频生成推理
 
+- [Cache-DiT](https://github.com/vipshop/cache-dit)
 - [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)
 - [LightX2V](https://github.com/ModelTC/lightx2v)
 - [FastVideo](https://github.com/hao-ai-lab/FastVideo)
@@ -100,10 +102,10 @@ Diffusion / DiT / 图像与视频生成推理
 
 具身智能 / VLA / 实时机器人推理
 
-- [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)
+- [OpenPi](https://github.com/Physical-Intelligence/openpi)
 - [PhyAI](https://github.com/mingti-org/phyai)
-- [APXinf-robo](https://github.com/RLinf/APXinf-robo)
-- [Hugging Face LeRobot](https://github.com/huggingface/lerobot)
+- [APXinf-Robo](https://github.com/RLinf/APXinf-robo)
+- [Hugging-Face-LeRobot](https://github.com/huggingface/lerobot)
 - [FlashRT](https://github.com/flashrt-project/FlashRT)
 - [vla.cpp](https://github.com/VinRobotics/vla.cpp)
 - [Embodied.cpp](https://github.com/SEU-PAISys/Embodied.cpp)
@@ -124,22 +126,23 @@ Diffusion / DiT / 图像与视频生成推理
 大规模 / 分布式模型训练基础设施与训练引擎
 
 - [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
-- [VeOmni](https://github.com/ByteDance-Seed/VeOmni)
+- [ByteDance-Seed-VeOmni](https://github.com/ByteDance-Seed/VeOmni)
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 - [TorchTitan](https://github.com/pytorch/torchtitan)
 - [XTuner](https://github.com/InternLM/xtuner)
-- [PyTorch Lightning](https://github.com/Lightning-AI/pytorch-lightning)
-- [PithTrain](https://github.com/mlc-ai/pith-train)
+- [PyTorch-Lightning](https://github.com/Lightning-AI/pytorch-lightning)
+- [MLC-AI-PithTrain](https://github.com/mlc-ai/pith-train)
 
 LLM / VLM 微调与通用后训练
 
-- [ModelScope SWIFT](https://github.com/modelscope/ms-swift)
-- [Hugging Face TRL](https://github.com/huggingface/trl)
+- [ModelScope-SWIFT](https://github.com/modelscope/ms-swift)
+- [Hugging-Face-TRL](https://github.com/huggingface/trl)
 - [Axolotl](https://github.com/axolotl-ai-cloud/axolotl)
 - [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory)
+- [Unsloth](https://github.com/unslothai/unsloth)
 - [LitGPT](https://github.com/Lightning-AI/litgpt)
-- [torchtune](https://github.com/meta-pytorch/torchtune)
+- [TorchTune](https://github.com/meta-pytorch/torchtune)
 - [Soup](https://github.com/MakazhanAlpamys/Soup)
 - [TuFT](https://github.com/agentscope-ai/TuFT)
 
@@ -159,14 +162,14 @@ Agentic / Embodied RL 与 Agent 优化框架
 
 - [AReaL](https://github.com/areal-project/AReaL)
 - [Uni-Agent](https://github.com/verl-project/uni-agent)
-- [Agent Lightning](https://github.com/microsoft/agent-lightning)
+- [Agent-Lightning](https://github.com/microsoft/agent-lightning)
 - [rLLM](https://github.com/rllm-org/rllm)
 - [RLinf](https://github.com/RLinf/RLinf)
 - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
 - [Agent-R1](https://github.com/AgentR1/Agent-R1)
-- [PRIME-RL](https://github.com/PrimeIntellect-ai/prime-rl)
+- [Prime-RL](https://github.com/PrimeIntellect-ai/prime-rl)
 - [Open-AgentRL](https://github.com/Gen-Verse/Open-AgentRL)
-- [redai-studio/Relax](https://github.com/redai-studio/Relax)
+- [Relax](https://github.com/redai-studio/Relax)
 
 Agentic Modeling / RL Environment / Sandbox 基础设施
 
@@ -180,44 +183,42 @@ Agentic Modeling / RL Environment / Sandbox 基础设施
 - [x-transformers](https://github.com/lucidrains/x-transformers)
 - [xFormers](https://github.com/facebookresearch/xformers)
 - [Diffusers](https://github.com/huggingface/diffusers)
-- [Cache-DiT](https://github.com/vipshop/cache-dit)
-- [Hugging Face Optimum](https://github.com/huggingface/optimum)
+- [Optimum](https://github.com/huggingface/optimum)
+- [TorchRec](https://github.com/meta-pytorch/torchrec)
 - [Mooncake](https://github.com/kvcache-ai/Mooncake)
 - [LMCache](https://github.com/LMCache/LMCache)
-- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router)
-- [vllm-project/speculators](https://github.com/vllm-project/speculators)
+- [vLLM-Speculators](https://github.com/vllm-project/speculators)
 - [TorchSpec](https://github.com/lightseekorg/TorchSpec)
-- [meta-pytorch/torchrec](https://github.com/meta-pytorch/torchrec)
-- [sgl-project/SpecForge](https://github.com/sgl-project/SpecForge)
-- [verl-SpeCo](https://github.com/verl-project/verl-SpeCo)
-- [PyTorch Image Models (timm)](https://github.com/huggingface/pytorch-image-models)
+- [SGLang-SpecForge](https://github.com/sgl-project/SpecForge)
+- [VeRL-SpeCo](https://github.com/verl-project/verl-SpeCo)
+- [PyTorch-Image-Models](https://github.com/huggingface/pytorch-image-models)
 - [KVCache-Factory](https://github.com/Zefan-Cai/KVCache-Factory)
-- [Flash Attention](https://github.com/Dao-AILab/flash-attention)
-- [Liger Kernel](https://github.com/linkedin/Liger-Kernel)
-- [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention)
+- [Flash-Attention](https://github.com/Dao-AILab/flash-attention)
+- [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)
+- [Flash-Linear-Attention](https://github.com/fla-org/flash-linear-attention)
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer)
 - [ExFold-MoE](https://github.com/Time-Rune/ExFold-MoE)
-- [perplexityai/pplx-garden](https://github.com/perplexityai/pplx-garden)
-- [Hugging Face Accelerate](https://github.com/huggingface/accelerate)
-- [vit-pytorch](https://github.com/lucidrains/vit-pytorch)
+- [Perplexity-Garden](https://github.com/perplexityai/pplx-garden)
+- [Accelerate](https://github.com/huggingface/accelerate)
+- [Vision-Transformer-PyTorch](https://github.com/lucidrains/vit-pytorch)
 - [PEFT](https://github.com/huggingface/peft)
 - [FlagScale](https://github.com/flagos-ai/FlagScale)
 - [ModelScope](https://github.com/modelscope/modelscope)
 - [OpenCV](https://github.com/opencv/opencv)
-- [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)
+- [MediaPipe](https://github.com/google-ai-edge/mediapipe)
 - [Ray](https://github.com/ray-project/ray)
-- [Kubernetes (K8s)](https://github.com/kubernetes/kubernetes)
+- [K8s](https://github.com/kubernetes/kubernetes)
 - [Koordinator](https://github.com/koordinator-sh/koordinator)
 - [llm-d](https://github.com/llm-d/llm-d)
-- [lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [AISBench](https://github.com/AISBench/benchmark)
 - [OpenCompass](https://github.com/open-compass/opencompass)
-- [Memory Sparse Attention](https://github.com/EverMind-AI/MSA)
-- [HKUSTDial/flash-sparse-attention](https://github.com/HKUSTDial/flash-sparse-attention)
+- [Memory-Sparse-Attention](https://github.com/EverMind-AI/MSA)
+- [Flash-Sparse-Attention](https://github.com/HKUSTDial/flash-sparse-attention)
 - [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
-- [vllm-project/llm-compressor](https://github.com/vllm-project/llm-compressor)
+- [LLM-Compressor](https://github.com/vllm-project/llm-compressor)
 - [TensorDict](https://github.com/pytorch/tensordict)
 - [TensorCast](https://github.com/tensorcast-ai/tensorcast)
-- [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit)
+- [MergeKit](https://github.com/arcee-ai/mergekit)
 
 ## 深度学习框架 / 图神经网络库
 
@@ -230,20 +231,20 @@ Agentic Modeling / RL Environment / Sandbox 基础设施
 - [OneFlow](https://github.com/Oneflow-Inc/oneflow)
 - [PyG](https://github.com/pyg-team/pytorch_geometric)
 - [DGL](https://github.com/dmlc/dgl)
-- [TensorFlow GNN](https://github.com/tensorflow/gnn)
+- [TensorFlow-GNN](https://github.com/tensorflow/gnn)
 - [AutoGL](https://github.com/THUMNLab/AutoGL)
 
-## 开发 / 生成深度学习与大模型高性能 Kernel 的领域专用语言：
+## 开发 / 生成深度学习与大模型高性能 Kernel 的领域专用语言
 
 - [Triton](https://github.com/triton-lang/triton)
 - [TileLang](https://github.com/tile-ai/tilelang)
 - [Helion](https://github.com/pytorch/helion)
-- [JAX Pallas](https://github.com/jax-ml/jax/tree/main/jax/_src/pallas)
+- [JAX-Pallas](https://github.com/jax-ml/jax/tree/main/jax/_src/pallas)
 
 ## 编译器基础设施
 
 表示和优化 Primitive Tensor Functions
 
-- [TVM（含 TensorIR / TIRx）](https://github.com/apache/tvm)
-- [LLVM MLIR](https://github.com/llvm/llvm-project/tree/main/mlir/include/mlir)
-- [XLA（OpenXLA 生态）](https://github.com/openxla/xla)
+- [TVM-TensorIR-TIRx](https://github.com/apache/tvm)
+- [LLVM-MLIR](https://github.com/llvm/llvm-project/tree/main/mlir/include/mlir)
+- [OpenXLA ](https://github.com/openxla/xla)
