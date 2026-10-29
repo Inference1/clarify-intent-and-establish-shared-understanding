@@ -5,6 +5,7 @@ LLM / VLM 高性能推理与 Serving
 
 - [vLLM](https://github.com/vllm-project/vllm)
 - [SGLang](https://github.com/sgl-project/sglang)
+- [DeepInfer](https://github.com/deepseek-ai/deepinfer)
 - [LMDeploy](https://github.com/InternLM/lmdeploy)
 - [xLLM](https://github.com/xLLM-AI/xllm)
 - [TileRT](https://github.com/tile-ai/TileRT)
