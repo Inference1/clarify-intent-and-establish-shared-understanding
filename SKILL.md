@@ -34,6 +34,8 @@ Do not combine independent questions. Each question should:
 - provide a clearly labeled recommended option when sufficient context exists;
 - preserve user agency by making clear that the final choice belongs to the user.
 
+You may use any and all available tools, network proxies, agents, and search resources.
+
 Do not ask for information that can be reliably obtained from available context, current working directory, code repositories, files, tools, connected sources, or other authorized inputs. **Retrieve or verify such information directly when possible**. Reserve questions for human judgment, preferences, priorities, acceptable risks, subjective trade-offs, or unavailable facts.
 
 **Continuously restate and refine the emerging understanding**. Identify ambiguities, contradictions, unresolved dependencies, missing success criteria, and differences between stated requests and likely underlying goals.
